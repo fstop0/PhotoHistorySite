@@ -1,0 +1,42 @@
+html{
+    font-size:14px;
+    background-color:white;
+}
+
+header, section{
+    position: sticky;
+    top:0;
+
+}
+header{
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+section {
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-end;
+    background-color: white;
+}
+
+section div {
+    width: 50%;
+    margin: 2rem;
+}
+
+section div img{
+    width: 100%;
+}
+
+
+@media (max-width:800px){
+    section{
+        display:block;
+    }
+
+}

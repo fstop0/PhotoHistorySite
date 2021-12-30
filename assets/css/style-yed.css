@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Karrik';
+    src: url('assets/fonts/Karrik-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Steinbeck';
+    src: url('assets/fonts/Steinbeck Demo Regular.otf') format('opentype');
+}
+
+* {
+    margin:0;
+    scroll-behavior: smooth;
+    
+}
+html{
+    font-size: 16px;
+    font-family: 'Karrik';
+    line-height: 1.25;
+}
+
+body {
+    color: black;
+}
+
+
+header, section {
+    padding: 2rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+}
+
+header.lesson {
+    padding-top:2.5rem;
+    min-height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    position: sticky;
+}
+  
+section.header-container{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    width: 100vw;
+    position: sticky;
+}
+
+section.about{
+    height: 10rem;
+    background-color: #efefef;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5rem;
+    margin-top:3rem;
+    word-wrap: normal;
+    z-index: 2;
+    
+}
+
+
+section.slide2{
+    background-color: rgba(0,0,0,0);
+    z-index: 2;
+}
+
+section.slide3 {
+    background-color: #fafafa;
+    z-index:10;
+}
+
+section.slide4 {
+    background-color: #8d8d8d;
+    z-index: 20;
+}
+
+section.slide5 {
+    background-color: #efefef;
+}
+div.container{
+    display: flex;
+    flex-direction: column;
+}
+section.slide {
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.slide img{
+    max-width:1000px;
+    flex-grow: 2;
+}
+
+section.right {
+    width: 50%;
+}
+
+span.bluu {
+    font-family: 'Steinbeck';
+}
+
+@media (max-width:725px) {
+    section.slide img {
+        flex-shrink: .5;
+        width: 75%;
+    }
+}

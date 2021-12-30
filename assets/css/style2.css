@@ -1,0 +1,110 @@
+@font-face {
+    font-family:'Karrik';
+    src: url('./assets/fonts/karrik-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "KarrikItalic";
+    src: url('./assets/fonts/Karrik-Italic.otf') format('opentype');
+}
+body, p, h1, h2, h3, h4, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-height: 100vh;
+}
+
+html {
+    font-family: 'Karrik';
+    font-size:22px;
+    color:#efefef;
+    background-color: #efefef;
+    scroll-behavior: smooth;
+}
+
+#nav-container > nav > ul {
+    list-style-type: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bg {
+    background-color: #efefef;
+    padding: .25rem;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#lesson-header {
+    margin-left:1rem;
+
+}
+
+.main-content {
+    display:flex;
+    flex-wrap: wrap;
+    max-height: 800px;
+    overflow-x:scroll;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-content img{
+    margin: .5rem;
+}
+
+.nav {
+    display:flex;
+
+}
+img.next {
+    padding: .125rem;
+    margin: .5rem;
+}
+
+img.prev {
+    padding:.125rem;
+    margin:.5rem;
+}
+
+.footer{
+    width:100%;
+    position:fixed;
+    bottom: 0;
+    left:auto;
+    min-height: 20px;
+    display:flex;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+h1{
+    font-size: 1.75rem;
+    color: #000;
+}
+
+section {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+}
+
+.text-area{
+    width:400px;
+}
+@media only screen and (max-width: 760px) {
+    .main-content img {
+        max-width: 75%;
+    }
+}
+@media screen and (min-width:767px){
+    .main-content img{
+        max-width:100%;
+        height: 100%;
+    }
+}
