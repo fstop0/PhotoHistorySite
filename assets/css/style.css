@@ -2,6 +2,10 @@ html{
     font-size:14px;
     background-color:white;
 }
+/* typography */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header, section{
     position: sticky;
