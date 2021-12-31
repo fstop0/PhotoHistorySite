@@ -125,8 +125,9 @@ div img.rotate {
         flex-direction: column-reverse;
     }
 
-   section div img:nth-child(odd) {
+   section:nth-child(odd) {
     position:sticky;
+    position: -webkit-sticky;
     top:0;
     }
 
