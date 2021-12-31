@@ -69,12 +69,11 @@ section div p {
 }
 
 h2.section-title{
-    text-align: right;
     text-transform: uppercase;
 }
 
 h2.section-title:nth-child(odd) {
-    text-aligh: left;
+    text-align: right;
 }
 
 section div img {
@@ -91,14 +90,7 @@ section div img {
     }
 
     section div {
-        width: 100%;
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-    }
-
-    section:nth-child(odd) {
-        flex-direction: column-reverse;
+        min-width: 100%;
     }
 
     section div img {
@@ -107,4 +99,13 @@ section div img {
         position: -webkit-sticky;
         top: 0;
     }
+
+    section div h2, h3, p {
+        background-color: white;
+    }
+
+    section:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+
 }
