@@ -10,9 +10,15 @@ h1 {
 
 h2 {
     font-family: 'Spline Sans';
+
 }
 
 h2.begin {
+    font-family: 'Spline Sans';
+    text-transform: uppercase;
+}
+
+h3 {
     font-family: 'Spline Sans';
 }
 
