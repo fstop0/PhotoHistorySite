@@ -1,5 +1,6 @@
 * {
     font-size: 14px;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -36,7 +37,7 @@ h3 {
 
 
 header{
-    height: 75vh;
+    height: 99vh;
     padding: 2rem;
     display:flex;
     flex-direction: column;
@@ -47,6 +48,7 @@ header{
 section {
     display: flex;
     background-color: white;
+    align-items: stretch;
 }
 
 section:nth-child(odd) {
@@ -56,6 +58,7 @@ section:nth-child(odd) {
 section div {
     width: 50%;
     padding-bottom: 5%;
+    justify-content: space-between;
 }
 
 section div h2, h3 { 
@@ -83,6 +86,20 @@ section div img {
     top: 0;
 }
 
+section.cover img {
+    background-image: url('./assets/history/slide10.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+div img {
+    margin-bottom: 50%;
+}
+
+div img.rotate {
+    transform: rotate(270deg);
+}
+
 @media (max-width:800px){
     section {
         display: flex;
@@ -106,6 +123,11 @@ section div img {
 
     section:nth-child(odd) {
         flex-direction: column-reverse;
+    }
+
+   section div img:nth-child(odd) {
+    position:sticky;
+    top:0;
     }
 
 }
