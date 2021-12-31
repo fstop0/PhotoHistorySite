@@ -1,15 +1,21 @@
-*{
-    
+* {
+    font-size: 14px;
 }
 
 html{
     font-size:14px;
-    background-color:white;
+    background-color: white;
 }
+
+body {
+    background-color: white;
+}
+
 /* typography */
 /* font-family: 'Spline Sans', sans-serif; */
 h1 {
     font-family: 'Spline Sans';
+    font-size: 3rem;
 }
 
 h2 {
@@ -25,59 +31,80 @@ h2.begin {
 
 h3 {
     font-family: 'Spline Sans';
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
-header, section{
-    position: sticky;
-    position: -webkit-sticky;
-    top:0;
 
-}
 header{
-    height:100vh;
-    display: flex;
+    height: 75vh;
+    padding: 2rem;
+    display:flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 1.5rem;
-    border-bottom: 1px solid black;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 section {
-    overflow: scroll;
-    height:100vh;
     display: flex;
-    justify-content: center;
-    justify-items: flex-end;
     background-color: white;
+}
+
+section:nth-child(odd) {
+    flex-direction: row-reverse;
 }
 
 section div {
     width: 50%;
-    margin: 2rem;
+    padding-bottom: 5%;
 }
 
-section div text {
-    overflow: scroll;
+section div h2, h3 { 
+    padding: 2.5rem;
+    text-align: justify;
+    line-height: 1.5;
 }
 
-section div img{
+section div p {
+    text-align: right;
+}
+
+h2.section-title{
+    text-align: right;
+    text-transform: uppercase;
+}
+
+h2.section-title:nth-child(odd) {
+    text-aligh: left;
+}
+
+section div img {
     max-width: 100%;
-    object-fit: cover;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
-
 
 @media (max-width:800px){
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     section div {
-        width: 66%;
+        width: 100%;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
     }
-    
-    section{
-        display:flex;
-        flex-direction: column;
+
+    section:nth-child(odd) {
+        flex-direction: column-reverse;
     }
+
     section div img {
         max-width: 100%;
-        display: flex;
-        
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
     }
 }
