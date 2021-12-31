@@ -3,8 +3,9 @@ html{
     background-color:white;
 }
 /* typography */
+/* font-family: 'Spline Sans', sans-serif; */
 h1 {
-    font-family: sans-serif;
+    font-family: 'Spline Sans';
 }
 
 header, section{
