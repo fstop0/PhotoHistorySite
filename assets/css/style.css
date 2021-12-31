@@ -8,6 +8,10 @@ h1 {
     font-family: 'Spline Sans';
 }
 
+h2 {
+    font-family: 'Spline Sans', sans-serif;
+}
+
 header, section{
     position: sticky;
     position: -webkit-sticky;
