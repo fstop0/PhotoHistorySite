@@ -6,9 +6,25 @@ The first time the word -photography- was used was in 1839 and Sir John Herschel
 
 Herschel 
 
+-- EDIT 12/31/21
+
+01
+
+The word photography is a neologism of two Greek words.
+
+The word 'photography' is a neologism, created from the Greek roots φωτός (phōto’s), genitive of φῶς (phōs), “light” and γραφή (graphé) “representation by means of lines”.
+                    
+The first recorded use of photography dates back to 1839 and is historically credited to Sir John Herschel.
+
+The history of photography, or rather: the study of light and its representations have been an interest of human history since 400BC.
+
+--
+
 The Chinese were the first people that we know of to write about and prepare diagrams of the camera obscura. These Latin words literally mean "dark room". The first known record of the camera obscura is in writing by Chinese philosopher Mo-tzu in 400BC. 
 
     img: https://magazine.artland.com/wp-content/uploads/2020/01/Camera-Obscura-1024x609.jpg
+
+--
 
 Later that century, Greek philosopher Aristotle realized that an eclipse could be viewed by looking at the ground under a tree, through the cover of leaves as a sieve of lenses.
 
@@ -36,7 +52,10 @@ Later that century, Greek philosopher Aristotle realized that an eclipse could b
         
 
 
-        
+-- 
+
+2A
+
 CONTEMPORARY CAMERA OBSCURAS
     http://www.slow-vision-art.com/wp-content/gallery/camera-obscura/samleB-192.jpg
         Location: Aegina Camera Obscura, Greece. Idea / Conzept Gustav Deutsch Architectur Franz Berzl Realisation Gavrilos Michalis
