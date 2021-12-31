@@ -12,6 +12,10 @@ h2 {
     font-family: 'Spline Sans';
 }
 
+h2.begin {
+    font-family: 'Spline Sans';
+}
+
 header, section{
     position: sticky;
     position: -webkit-sticky;
