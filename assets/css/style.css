@@ -58,7 +58,6 @@ section:nth-child(odd) {
 section div {
     width: 50%;
     padding-bottom: 5%;
-    justify-content: space-between;
 }
 
 section div h2, h3 { 
@@ -112,9 +111,6 @@ div img.rotate {
 
     section div img {
         max-width: 100%;
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
     }
 
     section div h2, h3, p {
@@ -125,10 +121,5 @@ div img.rotate {
         flex-direction: column-reverse;
     }
 
-   section:nth-child(odd) {
-    position:sticky;
-    position: -webkit-sticky;
-    top:0;
-    }
 
 }
